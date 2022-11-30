@@ -1,0 +1,230 @@
+<!-- Copyright: Nicklas Vraa, 2022 -->
+<svg class="night" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="anim()" viewBox="126 0 500 500">
+  <defs>
+    <radialGradient id="radial-gradient" cx="250" cy="250" r="221" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.37" stop-color="#fdfdfd"/>
+      <stop offset="0.51" stop-color="#f6f6f6"/>
+      <stop offset="0.6" stop-color="#ebebeb"/>
+      <stop offset="0.68" stop-color="#dadada"/>
+      <stop offset="0.75" stop-color="#c4c4c4"/>
+      <stop offset="0.8" stop-color="#a8a8a8"/>
+      <stop offset="0.86" stop-color="#888"/>
+      <stop offset="0.91" stop-color="#626262"/>
+      <stop offset="0.95" stop-color="#373737"/>
+      <stop offset="0.99" stop-color="#090909"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <mask id="mask" x="0" y="29" width="751" height="454" maskUnits="userSpaceOnUse">
+      <g transform="translate(126)">
+        <circle cx="250" cy="250" r="221" fill="url(#radial-gradient)"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-2" cx="353.1" cy="96.83" r="4.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0.28" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.34" stop-color="#fefefe" stop-opacity="0.03"/>
+      <stop offset="0.44" stop-color="#fdfdfd" stop-opacity="0.12"/>
+      <stop offset="0.57" stop-color="#fafafa" stop-opacity="0.27"/>
+      <stop offset="0.7" stop-color="#f6f6f6" stop-opacity="0.47"/>
+      <stop offset="0.85" stop-color="#f1f1f1" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#ebebeb"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="359.5" cy="104.5" r="5.5" gradientTransform="translate(59.64 -19) scale(1.18 1.18)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-4" cx="359.5" cy="104.5" r="0.92" gradientTransform="translate(59.64 -19) scale(1.18 1.18)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-5" cx="354.93" cy="98.01" r="0.73" gradientTransform="translate(59.64 -19) scale(1.18 1.18)" xlink:href="#radial-gradient-2"/>
+    <mask id="mask-2" x="84.87" y="206" width="582.25" height="294" maskUnits="userSpaceOnUse">
+      <g transform="translate(126)">
+        <path id="light_mask" d="M500,500H0L240,208s2-2,10-2,10,2,10,2Z" fill="#fff" opacity="0.6" style="mix-blend-mode: overlay"/>
+      </g>
+    </mask>
+  </defs>
+  <title>night</title>
+  <!-- @auto-fold here -->
+  <g style="isolation: isolate">
+    <g id="background">
+      <rect x="126" width="500" height="500" fill="#0c1935"/>
+    </g>
+    <g id="landscape">
+      <g mask="url(#mask)">
+        <g id="sky">
+          <g id="stars" opacity="0.5">
+            <circle id="star1" cx="398" cy="100" r="1.69" fill="#fff"/>
+            <circle id="star2" cx="431" cy="59" r="1.28" fill="#fff"/>
+            <circle id="star3" cx="339" cy="146" r="1.29" fill="#fff"/>
+            <circle id="star4" cx="517" cy="125" r="1.67" fill="#fff"/>
+            <circle id="star5" cx="307" cy="108" r="1.75" fill="#fff"/>
+            <circle cx="456" cy="146" r="1.69" fill="#fff"/>
+            <circle cx="146" cy="160" r="1.33" fill="#fff"/>
+            <circle cx="192" cy="97" r="0.84" fill="#fff"/>
+            <circle cx="370" cy="114" r="0.82" fill="#fff"/>
+            <circle cx="440" cy="175" r="0.83" fill="#fff"/>
+            <circle cx="461" cy="123" r="0.34" fill="#fff"/>
+            <circle cx="418" cy="154" r="0.84" fill="#fff"/>
+            <circle cx="386" cy="166" r="1.28" fill="#fff"/>
+            <circle cx="349" cy="162" r="1.41" fill="#fff"/>
+            <circle cx="331" cy="157" r="0.32" fill="#fff"/>
+            <circle cx="313" cy="159" r="1.45" fill="#fff"/>
+            <circle cx="320" cy="134" r="0.27" fill="#fff"/>
+            <circle cx="362" cy="155" r="0.61" fill="#fff"/>
+            <circle cx="380" cy="116" r="1.17" fill="#fff"/>
+            <circle cx="428" cy="113" r="0.46" fill="#fff"/>
+            <circle cx="510" cy="163" r="0.9" fill="#fff"/>
+            <circle cx="526" cy="165" r="1.26" fill="#fff"/>
+            <circle cx="239" cy="168" r="1.35" fill="#fff"/>
+            <circle cx="236" cy="129" r="0.49" fill="#fff"/>
+            <circle cx="242" cy="99" r="1.36" fill="#fff"/>
+            <circle cx="343" cy="81" r="0.66" fill="#fff"/>
+            <circle cx="477" cy="99" r="1.14" fill="#fff"/>
+            <circle cx="540" cy="125" r="0.56" fill="#fff"/>
+            <circle cx="195" cy="123" r="1.17" fill="#fff"/>
+          </g>
+          <g id="moon">
+            <g id="third_glow">
+              <circle cx="492" cy="97" r="1" fill="#fff" opacity="0.2"/>
+            </g>
+            <g id="second_glow">
+              <circle cx="492" cy="97" r="12" fill="#fff" opacity="0.2"/>
+            </g>
+            <g id="first_glow">
+              <circle cx="492" cy="97" r="23" fill="#fff" opacity="0.2"/>
+            </g>
+            <g id="core">
+              <circle cx="492" cy="97" r="23" fill="#fff"/>
+            </g>
+            <g id="impacts" opacity="0.3">
+              <path d="M357.55,97.41a4.75,4.75,0,0,0,.05-.53,4.5,4.5,0,1,0-5.45,4.4A6.46,6.46,0,0,1,357.55,97.41Z" transform="translate(126)" opacity="0.5" fill="url(#radial-gradient-2)"/>
+              <circle cx="484.5" cy="104.5" r="6.5" fill="url(#radial-gradient-3)"/>
+              <circle cx="484.5" cy="104.5" r="1.08" fill="url(#radial-gradient-4)"/>
+              <circle cx="479.1" cy="96.83" r="0.87" fill="url(#radial-gradient-5)"/>
+            </g>
+          </g>
+          <g id="clouds">
+            <g id="back_cloud">
+              <path d="M539.29,260c-1.15,0-2.29,0-3.43,0,9-9.44,14.18-20.45,14.18-32.23,0-34.94-45.51-63.27-101.64-63.27a163.79,163.79,0,0,0-17.77,1C419.27,155.49,400.82,149,380,149A95.51,95.51,0,0,0,362,150.66c-4.49-4.41-12-7.3-20.42-7.3a33.34,33.34,0,0,0-14,3c-8-10.87-17.93-17.33-28.71-17.33-6.8,0-13.25,2.58-19.1,7.2a50.59,50.59,0,0,0-18.24-3.28c-19.28,0-35,10-35.76,22.54a70.61,70.61,0,0,0-16.82-2,71.82,71.82,0,0,0-34.47,8.91c-10-19.41-37.2-33.33-69.13-33.33-27.88,0-52.12,10.61-64.51,26.23-7-4.86-17.54-7.95-29.31-7.95-15.71,0-29.21,5.51-35.08,13.39A50.87,50.87,0,0,0-55.91,149c-29.14,0-52.77,24.85-52.77,55.5a56.51,56.51,0,0,0,19.38,43q.93,1.4,2,2.76c-17.61,8.56-29.21,23.16-29.21,39.74,0,26.36,29.32,47.73,65.48,47.73,18.91,0,35.94-5.85,47.9-15.2,9.71,9.1,27.52,15.2,47.88,15.2,13.15,0,25.23-2.55,34.76-6.8a65.43,65.43,0,0,0,29.74,6.8c17.21,0,32.38-6,41.34-15.17C165.6,340.12,186.21,351,209,351a71,71,0,0,0,16.16-1.88,85.59,85.59,0,0,0,18,1.88c20.29,0,37.69-6.74,45.08-16.34a187,187,0,0,0,34.08,3,190.86,190.86,0,0,0,28.58-2.1c8.44,9.64,19.25,15.42,31,15.42,11,0,21.19-5.06,29.37-13.59,23.84-1.37,45.35-8.2,61.74-18.62,13.49,11.31,38.11,18.89,66.24,18.89,42.64,0,77.21-17.39,77.21-38.85S581.93,260,539.29,260Z" transform="translate(126)" fill="#132449" opacity="0.98"/>
+            </g>
+            <g id="mid_cloud">
+              <path d="M594.09,249.71c-2.61-32.12-35.87-55.63-74.27-52.5a78.36,78.36,0,0,0-41.88,15.88,38.14,38.14,0,0,0-21.83-4.75,37.7,37.7,0,0,0-31.78,22.71,60.52,60.52,0,0,0-44.63,8.71,51,51,0,0,0-27.14-5.12c-9.83-9.95-26.08-15.75-43.94-14.3a63.23,63.23,0,0,0-23.15,6.35c-4.75-17.91-22.84-30.39-43.29-28.72a43.48,43.48,0,0,0-18.36,5.7c-16.91-20.58-41-32.63-66.74-30.53-24.51,2-45.49,16.44-59,37.74a51.12,51.12,0,0,0-11-.29c-15.64,1.27-28.28,9.23-31.68,19a79.56,79.56,0,0,0-19.92-.91c-22.57,1.83-42.37,13-56.57,29.9a51.74,51.74,0,0,0-25.64-1.26c-23.76,4.6-40.8,23.2-38.08,41.54a25.92,25.92,0,0,0,2.35,7.53,50.59,50.59,0,0,0-12.64,38.09,50.74,50.74,0,0,0,15.67,33,35,35,0,0,0-3.78,18.65c2,24.5,30.3,42.19,63.22,39.51,16.75-1.36,31.46-7.75,41.62-16.91a79.39,79.39,0,0,0,56.23-3.79c5.41,13.67,23,22.78,43,21.15,17.7-1.44,32.17-10.89,37.42-23,1.5,0,3-.11,4.54-.24a85.63,85.63,0,0,0,34.57-10.21c7.22,15.42,22,25.46,38.1,24.14,15-1.21,27.19-11.89,32.57-26.53,11.79,6.47,27.15,9.77,43.65,8.43a80.75,80.75,0,0,0,36.88-11.94c6.5,20.35,31.19,34.18,59.36,31.89,26.88-2.19,48.26-18.35,52.88-38.17A80.19,80.19,0,0,0,492,394c38.83-3.16,68.11-32.64,65.41-65.85a52.44,52.44,0,0,0-5.61-19.64C578.36,298.36,596.16,275.16,594.09,249.71Z" transform="translate(126)" fill="#182b51"/>
+            </g>
+            <g id="front_cloud">
+              <path d="M501.83,337.71c-1.25,0-2.49.05-3.72.12-2.6-19-20.95-34.75-45.56-40.32a40.06,40.06,0,0,0,.61-7c0-23-19.25-41.7-43-41.7-19.58,0-36.1,12.7-41.3,30.07A34.16,34.16,0,0,0,361,278a33.72,33.72,0,0,0-13.86,2.94c-5.39-16.21-21.76-28-41.11-28a44.27,44.27,0,0,0-34,15.37c-6.33-5.08-15.87-8.31-26.54-8.31a46.71,46.71,0,0,0-20.59,4.54C218.08,251.21,203.5,242,186.62,242c-23.44,0-42.45,17.75-42.45,39.65,0,.25,0,.49,0,.74-8.78,1.4-16.09,6.58-19.72,13.58a43.67,43.67,0,0,0-7.46-.64,42.72,42.72,0,0,0-18.49,4.19A25.53,25.53,0,0,0,81,293a28.08,28.08,0,0,0-6.57.77c-7.58-10.55-21.15-17.59-36.65-17.59-23.75,0-43,16.53-43,36.92a31.52,31.52,0,0,0,.28,4.14c-.47,0-.94,0-1.41,0-24.38,0-44.14,18.06-44.14,40.34s19.76,40.34,44.14,40.34c1.54,0,3.06-.08,4.56-.22C-1.14,422.8,20.88,443,48,443a51,51,0,0,0,39.34-18c23-1.77,42.45-14.83,51.47-33A50.11,50.11,0,0,0,153,394a48,48,0,0,0,18.77-3.64c6.43,12.52,20.28,21.19,36.35,21.19,15.59,0,29.1-8.16,35.76-20.08a55.73,55.73,0,0,0,33.89-.22A42.49,42.49,0,0,0,283.34,411c-12.4.25-22.34,7.31-22.34,16,0,8.84,10.3,16,23,16,11.9,0,21.69-6.29,22.88-14.34a32.5,32.5,0,0,0,6.5.67c10.69,0,20.27-5.24,26.8-13.52C346,420.78,355.4,424,366,424a45.32,45.32,0,0,0,19.53-4.16,73,73,0,0,0,28,5.38c24.26,0,44.79-11,51.77-26.19,8.92,7.67,22,12.52,36.51,12.52,26.88,0,48.67-16.53,48.67-36.92S528.71,337.71,501.83,337.71Z" transform="translate(126)" fill="#1b3163"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="hill" d="M500,500V391c-61-33.85-146.66-65-241.5-65-104,0-197,25.32-258.5,65.08V500Z" transform="translate(126)" fill="#0c1935"/>
+    </g>
+    <g mask="url(#mask-2)">
+      <g id="sea" opacity="0.5">
+        <g id="back_wave">
+          <path d="M-41.13,400S-21.22,374.5-11,375.1c11.78.68,22.63,18.48,38.09,16.66,16.71-2,23.75-16.58,33.08-16.66C76.11,375,87.48,393.68,96.67,394c11.82.46,22.28-18.82,31.37-19.09,15-.46,18.71,21.88,36.82,22.27,20.91.46,28.06-18.89,41.24-19.34,16.38-.57,32.29,18.3,43.9,18.89s23.51-19.94,34.42-20.46,26.75,19.15,36.76,20.19,22-14.05,33.71-14.28c20.05-.39,22.89,14.55,37.44,14.61,20.91.08,21.56-15,35.2-15S448.4,399.73,468.65,400c16.6.23,16.4-18.32,29.24-17.68,17.1.84,43.24,12.61,43.24,12.61v91.41H-41.13Z" transform="translate(126)" fill="#1b3163"/>
+        </g>
+        <g id="mid_wave">
+          <path d="M-41.13,427.5s39.44-41.62,64.76-32.37,35.56,31.47,65.7,22.67,42.54-29.69,55.45-28.62c23.7,2,36.88,28.1,60.28,25.76s37.66-21,53.94-21.7,42,29.41,61.26,24.54,32.74-21,54.74-23c27-2.42,25.35,15.53,47.65,17.53s33.12-15.2,59.32-13.75,49.51,18.38,59.16,21.69v76.63H-40.5Z" transform="translate(126)" fill="#132449"/>
+        </g>
+        <g id="front_wave">
+          <path d="M-41.13,458.4s60.59-35.42,90-29.19,61,32.43,79.18,32.43c31,0,50.82-37.41,90.5-36.17s73.73,34.17,103.85,32.93,64.8-29.83,82.95-33c34.05-5.9,61.86,10.3,100.05,23.9,32.23,12.25,35.72,12.32,35.72,12.32V500H-41.13Z" transform="translate(126)" fill="#0c1935"/>
+        </g>
+      </g>
+    </g>
+    <g id="lighthouse">
+      <g id="pillar">
+        <path d="M267.72,318.23l-3.39-84.45c3.5-.87,5.67-2.06,5.67-3.36v-4.16c0-1.58-3.15-3-8-3.85V208.32c1.26-.51,2-1.1,2-1.74V202.1c0-1.86-6.26-6.1-14-6.1s-14,4.24-14,6.1v4.48c0,.64.75,1.23,2,1.74v14.09c-4.85.87-8,2.27-8,3.85v4.16c0,1.3,2.17,2.49,5.67,3.36l-3.39,84.46c-5.68,1.19-9.28,2.94-9.28,4.9v10.4c0,3.6,12.09,6.51,27,6.51s27-2.91,27-6.51v-10.4C277,321.18,273.4,319.43,267.72,318.23Z" transform="translate(126)" fill="#0c1935"/>
+      </g>
+      <g id="torch">
+        <path d="M260,222.09v-13.6c0-1.38-4.48-2.49-10-2.49s-10,1.11-10,2.49v13.6a75,75,0,0,1,20,0Z" transform="translate(126)" fill="#d3d34a"/>
+      </g>
+      <g id="light_cone" data-name="light_mask">
+        <path d="M500,500H0L240,208s2-2,10-2,10,2,10,2Z" transform="translate(126)" fill="#fff" opacity="0.4" style="mix-blend-mode: overlay"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- GSAP -->
+  <script type="text/javascript" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"/>
+
+  <!-- Custom animation -->
+  <script type="text/javascript">
+
+    // Sets up master timeline
+    function anim() {
+
+      var master = new TimelineMax({repeat:-1});
+      master.add(waves(), 0).add(clouds(), 0).add(moon(), 0).add(stars(), 0);
+      master.timeScale(1.6);
+      master.running = true;
+
+      var light = {
+        mask  : document.getElementById('light_mask'),
+        cone  : document.getElementById('light_cone'),
+        torch : document.getElementById('torch'),
+        isOn  : false
+      };
+
+      var beam = new TimelineMax({paused:true});
+      beam.from(light.cone, 2, {scaleX: 0, transformOrigin:'50% 0%'}, 0)
+          .from(light.mask, 2, {scaleX: 0, transformOrigin:'50% 0%'}, 0)
+          .from(light.torch, 2, {opacity: 0}, 0);
+
+      // Makes the moon a toggle button.
+      document.getElementById("moon").addEventListener("click", function(){
+        if (!master.running) {
+          master.running = true;
+          master.resume();
+        } else {
+          master.running = false;
+          master.pause();
+        }
+      });
+
+      // Makes the lighthouse a toggle button.
+      document.getElementById("lighthouse").addEventListener("click", function(){
+        if (!light.isOn) {
+          light.isOn = true;
+          beam.restart();
+        } else {
+          light.isOn = false;
+          beam.play().reverse();
+        }
+      });
+
+      // Creates timeline for wave animation.
+      function waves() {
+        var tl = new TimelineMax({repeat:3, yoyo:true});
+        tl.to(document.getElementById('front_wave'), 5, {x:30, y:2, ease:Power1.easeInOut}, 0)
+          .to(document.getElementById('mid_wave'), 5, {x:20, y:2, ease:Power1.easeInOut}, 0)
+          .to(document.getElementById('back_wave'), 5, {x:10, ease:Power1.easeInOut}, 0);
+        return tl;
+      }
+
+      // Creates timeline for cloud animation.
+      function clouds() {
+        var tl = new TimelineMax({repeat:3, yoyo:true});
+        tl.to(document.getElementById('front_cloud'), 5, {y:8, ease:Power1.easeInOut}, 0)
+          .to(document.getElementById('mid_cloud'), 5, {y:6, ease:Power1.easeInOut}, 0)
+          .to(document.getElementById('back_cloud'), 5, {y:4, ease:Power1.easeInOut}, 0);
+        return tl;
+      }
+
+      // Creates timeline for moon animation.
+      function moon() {
+        var tl = new TimelineMax({repeat:1});
+        tl.to(document.getElementById('first_glow'), 10, {scale:1.8, opacity:0, transformOrigin:'50% 50%'}, 0)
+          .to(document.getElementById('second_glow'), 10, {scale:3.2, opacity:0, transformOrigin:'50% 50%'}, 0)
+          .to(document.getElementById('third_glow'), 10, {scale:34, opacity:0, transformOrigin:'50% 50%'}, 0);
+        return tl;
+      }
+
+      // Creates timeline for star animation.
+      function stars() {
+        var tl = new TimelineMax({repeat:1, yoyo:true});
+        tl.to(document.getElementById('star1'), 6, {opacity:0.2}, 0)
+          .to(document.getElementById('star2'), 6, {opacity:0.2}, 1)
+          .to(document.getElementById('star3'), 6, {opacity:0.2}, 2)
+          .to(document.getElementById('star4'), 6, {opacity:0.2}, 3)
+          .to(document.getElementById('star5'), 6, {opacity:0.2}, 4);
+        return tl;
+      }
+    }
+
+  </script>
+</svg>
