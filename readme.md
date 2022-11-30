@@ -29,7 +29,9 @@ Note: only tested with Chrome.
       isOn  : false
     };
 
-// More code...
+    // More code...
+  }
+</script>
 ```
 
 ---
