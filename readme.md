@@ -61,3 +61,6 @@ Note: only tested with Chrome.
 ```
 
 Open the raw files to check out the full code.
+
+---
+**LEGAL NOTICE**: This repository, including any and all of its forks and derivatives, may NOT be used in the development or training of any machine learning model of any kind, without the explicit permission of the owner of the original repository.
