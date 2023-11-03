@@ -1,5 +1,5 @@
 # Animated Vector Graphics
-Everyone likes SVGs. They're compact and infinitely scalable. Did you know, that you can animate them and even make them interactive, using a JavaScript library called GSAP? Well, you can, and it's easy. The code can even be written inside the SVG-file itself.
+Everyone likes SVGs. They're compact and infinitely scalable. In fact, they can be animated and interactive using a JavaScript library called GSAP. The code can even be written inside the SVG-file itself.
 
 Simply create the svg in inkscape, illustrator, or other vector-drawing software. Open the file in a text-editor and add your code.
 
